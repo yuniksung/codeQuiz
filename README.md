@@ -1,9 +1,10 @@
 # CodeQuiz
 
 ## Screenshot of the webpage in computer
-![](/assets/images/quiz.gif)
+![](/assets/images/codeQuiz.gif)
 
-[ Click here to link to Yunik's portfolio ](https://yuniksung.github.io/Yunique/)
+[ Click here to link to the CodeQuiz! ](https://yuniksung.github.io/codeQuiz/)
+[ Click here to link to the repository! ](https://github.com/yuniksung/codeQuiz.git)
 
 ## Coding Quiz Challenge
 The Coding Quiz Challenge contains 5 questions, on each you have 4 multiple choice options.
@@ -22,6 +23,11 @@ The Coding Quiz Challenge contains 5 questions, on each you have 4 multiple choi
 
 ## ViewHighScore
 List with initials of name and score in descending order
+
+## Built With:
+* HTML
+* CSS
+* JavaScript
 
 ---
 ## Contribution
