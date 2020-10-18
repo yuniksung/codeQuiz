@@ -4,6 +4,7 @@
 ![](/assets/images/codeQuiz.gif)
 
 [ Click here to link to the CodeQuiz! ](https://yuniksung.github.io/codeQuiz/)
+---
 [ Click here to link to the repository! ](https://github.com/yuniksung/codeQuiz.git)
 
 ## Coding Quiz Challenge
