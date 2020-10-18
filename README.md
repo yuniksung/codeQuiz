@@ -2,11 +2,11 @@
 
 ## Screenshot of the webpage in computer
 ![](/assets/images/codeQuiz.gif)
-
+---
 [ Click here to link to the CodeQuiz! ](https://yuniksung.github.io/codeQuiz/)
 ---
 [ Click here to link to the repository! ](https://github.com/yuniksung/codeQuiz.git)
-
+---
 ## Coding Quiz Challenge
 The Coding Quiz Challenge contains 5 questions, on each you have 4 multiple choice options.
  
