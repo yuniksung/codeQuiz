@@ -77,7 +77,7 @@ const questions = [
   
       if(time === 0) {
         clearInterval(timerId);
-        quizEnd();
+        endQuiz();
       }
     }, 1000);
   
@@ -177,7 +177,7 @@ const questions = [
     // check if user ran out of time
     if(time <= 0) {
       clearInterval(timerId);
-      quizEnd();
+      endQuiz();
     }
   
     // update time
