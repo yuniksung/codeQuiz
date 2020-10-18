@@ -1,7 +1,7 @@
 # CodeQuiz
 
 ## Screenshot of the webpage in computer
-![](/assets/images/recording.gif)
+![](/assets/images/quiz.gif)
 
 [ Click here to link to Yunik's portfolio ](https://yuniksung.github.io/Yunique/)
 
