@@ -4,12 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coding Quiz</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
   <body>
-    
+    <nav class="high-score">
+      <a href="./highscores.html">High Scores</a>
+    </nav>
+    <main>
+      <div class="intro">
+        <h1>Welcome to <span> Coding Quiz</span></h1>
+        <p>You can test your coding skills by answering my questions.  If there are more than 5 erros, the quiz will close the session automatically</p>
+        <button id="startBtn">
+          Start Quiz
+        </button>
+      </div>
+      <div class="main">
+        <div class="questions">
+          <h3 class="question">The condition in an if / else statement is enclosed within ____.</h3>
+        </div>
+        <div class="answer-choices">
+          <button id="answerBtn">
+            quotes
+          </button>
+          <button id="answerBtn">
+            curly brackets
+          </button>
+          <button id="answerBtn">
+            parentheses
+          </button>
+          <button id="answerBtn">
+            square brackets
+          </button>
+        </div>
+      </div>
+      
+    </main>
     
     <script src="./assets/javascript/script.js"></script>
     <script src="./assets/javascript/scores.js"></script>

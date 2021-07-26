@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+  
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    color: white;
+    background-color: rgb(75, 0, 75);
+    padding: 10px 15px;
+    border-radius: 10%;
+    outline: none;
+    border: none;
+    &:active{
+        background-color: rgb(128, 0, 128);
+    }
+}
+
+nav{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        background-color: rgb(75, 0, 75);
+        padding: 5px 10px;
+        border-radius: 10%;
+    }
+}
+
+main{
+    margin: auto;
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .intro{
+        text-align: center;
+        width: 100%;
+        height: 50%;
+        // display: none;
+        
+        h1{
+            font-size: 3rem;
+
+            span{
+                color:rgb(75, 0, 75)
+            }
+        }
+        
+        p{
+            margin-top: 2rem;
+            font-size: 2.3rem;
+        }
+
+        button{
+            margin: 50px;
+            font-size: 2rem;
+        }
+    }
+
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 50%;
+        display: none;
+        .questions{
+            width: 100%;
+            margin: 5% 0;
+        }
+
+        .answer-choices{
+            width: 100%;
+            height: 50%;
+        }
+    }
+}
