@@ -18,6 +18,11 @@ button{
     border-radius: 10%;
     outline: none;
     border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    &:hover{
+        background-color: rgb(116, 2, 116);
+    }
     &:active{
         background-color: rgb(128, 0, 128);
     }
@@ -37,23 +42,27 @@ nav{
         background-color: rgb(75, 0, 75);
         padding: 5px 10px;
         border-radius: 10%;
+        font-size: 1.2rem;
     }
 }
 
 main{
     margin: auto;
-    width: 40%;
+    width: 80%;
     height: 90%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 
+    .hide{
+        display: none;
+    }
+
     .intro{
         text-align: center;
         width: 100%;
         height: 50%;
-        // display: none;
         
         h1{
             font-size: 3rem;
@@ -74,21 +83,44 @@ main{
         }
     }
 
+
+
     .main{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        align-items: center;
-        height: 50%;
         display: none;
-        .questions{
-            width: 100%;
-            margin: 5% 0;
-        }
-
-        .answer-choices{
-            width: 100%;
-            height: 50%;
-        }
+        align-items: center;
+        height: 0;
+        width: 0;
+        
     }
+
+        .view{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        
+            .questions{
+                width: 100%;
+                margin: 5% 0;
+                h3{
+                    font-size: 1.5rem;
+                }
+            }
+
+            ul{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                list-style: none;
+                margin-top: 5px;
+
+                li{
+                    margin: 3px 0;
+                    
+                }
+            }
+    }
+    
 }

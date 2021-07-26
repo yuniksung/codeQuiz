@@ -18,6 +18,12 @@ button {
   border-radius: 10%;
   outline: none;
   border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: #740274;
 }
 
 button:active {
@@ -39,16 +45,21 @@ nav a {
   background-color: #4b004b;
   padding: 5px 10px;
   border-radius: 10%;
+  font-size: 1.2rem;
 }
 
 main {
   margin: auto;
-  width: 40%;
+  width: 80%;
   height: 90%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+main .hide {
+  display: none;
 }
 
 main .intro {
@@ -79,18 +90,36 @@ main .main {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
-  height: 50%;
   display: none;
+  align-items: center;
+  height: 0;
+  width: 0;
 }
 
-main .main .questions {
+main .view {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main .view .questions {
   width: 100%;
   margin: 5% 0;
 }
 
-main .main .answer-choices {
-  width: 100%;
-  height: 50%;
+main .view .questions h3 {
+  font-size: 1.5rem;
+}
+
+main .view ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 5px;
+}
+
+main .view ul li {
+  margin: 3px 0;
 }
 /*# sourceMappingURL=style.css.map */
